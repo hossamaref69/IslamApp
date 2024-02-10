@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IslamApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+       <item name="colorPrimary">@color/beige</item>
+    </style>
+
+
+    <style name="splashScreen"><item name="android:background">@drawable/splash_screen_light</item></style>
+    <style name="background"><item name="android:background">@drawable/background_light</item></style>
+    <style name="eslamyTextColor"><item name="android:textColor">@color/brown</item></style>
+    <style name="cardViewBackground"><item name="cardBackgroundColor">@color/white</item></style>
+    <style name="CountCardV">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="cardBackgroundColor">@color/beige</item>
+        <item name="cardCornerRadius">25dp</item>
+    </style>
+    <style name="counterTextColor"><item name="android:textColor">@color/white</item></style>
+    <style name="SebhaCardV">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="cardBackgroundColor">@color/beige</item>
+        <item name="cardCornerRadius">25dp</item>
+    </style>
+
+    <style name="sebhaTextColor">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="buttonBackgroundSebha">
+        <item name="android:background">@color/beige</item>
+    </style>
+    <style name="bottomNavigationBackground"><item name="android:background">@color/beige</item></style>
+    <style name="linBackground"><item name="android:background">@color/beige</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/brown</item></style>
+    <style name="detailsTextColor"><item name="android:textColor">@color/brown</item></style>
+    <style name="bodyOfSebha"><item name="android:src">@drawable/bodyofsebha_light</item></style>
+    <style name="headOfSebha"><item name="android:src">@drawable/headofsebha_light</item></style>
+    <style name="CounterBackground"><item name="android:background">@color/beige</item></style>
+    <style name="textSebhaBackground"><item name="android:background">@color/beige</item></style>
+    <style name="startAndEndRaido"><item name="android:src">@drawable/startandend_raido_light</item></style>
+
+
+</resources>
